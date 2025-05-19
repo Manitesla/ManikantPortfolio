@@ -33,7 +33,7 @@ export const Hero = () => {
   {/* arudino */}
   <div className="flex justify-center mb-5 md:mb-0 md:justify-start w-full max-w-[400px] h-[400px] md:mr-10">
 
-    <Arduino />
+    {/* arudino <Arduino />*/}
   </div>
 
   {/* Image */}
