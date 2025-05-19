@@ -38,9 +38,11 @@ import {
   github,
   logo,
 } from "../assets";
-import project7 from "../assets/projects/project7.jpeg";
-import project8 from "../assets/projects/project8.jpeg";
-import project9 from "../assets/projects/project9.jpeg";
+import iit from "../assets/iit.jpg";
+import drdo from "../assets/DRDO.jpg";
+import virobot from "../assets/Virobot.jpg";
+import ieee from "../assets/IEEE.jpg";
+import construct from "../assets/company/iit.png";
 // Navbar Links
 export const NAV_LINKS = [
   {
@@ -101,12 +103,12 @@ export const EXPERIENCES = [
       "UGV has a powerful manipulator arm for debris removal, structural support, and supply delivery.",
       "Designed to improve efficiency, safety, and speed in disaster search and rescue amid skilled personnel shortages.",
     ],
-    sideImage: logo, // <-- Add your real image path here
+    sideImage: drdo, // <-- Add your real image path here
   },
   {
     title: "IIT Bombay/ Quest Global Ingenium / IEEE ",
     company_name: "Eyantra Fighting Covid 19 Hackathon by IIT Bombay(National Level Winner) ,IEEE Young Engineers Entrepreneurship Program(National Level Winner),Quest Global Ingenium (National level Runner)",
-    icon: tesla,
+    icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -118,23 +120,36 @@ export const EXPERIENCES = [
       "Key Features: Virobot can deliver medicines, monitor patient health, and stream real-time data to doctors via smartphones using autonomous or remote control.",
       "Additional Capabilities: Equipped with UV sterilizer lights, FPV camera, Bluetooth speaker, and internet connectivity, it also facilitates telecommunication and sterilization.",
     ],
-    sideImage: logo,
+    sideImage: virobot,
   },
   {
-    title: "IIT Bombay E-Yantra / IEEE BIT / Navyantram Competition(SVVV Indore)",
+    title: "IEEE BIT / Navyantram Competition(SVVV Indore)",
     company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "e-Yantra is an IIT Bombay initiative that promotes project-based learning in robotics and embedded systems to solve real-world problems.",
       "The IEEE BIT Mini Project Competition by IEEE Student Branch, Bangalore Institute of Technology, encourages student innovation and practical engineering applications.",
       "IDEA/MODEL Competition is a national-level contest for innovative engineering ideas and models, while Navyantram (SVVV Indore) is a platform promoting creative engineering projects and hands-on learning.",
       "Frontline healthcare workers are at high risk of infection during pandemics, causing fear and hesitation to work.",
       "This Nurse is a mini prototype robot that can be controlled remotely or work autonomously to deliver medicines and monitor patients..",
       "It includes built-in UV sterilizer lights to disinfect hospital areas.",
     ],
-    sideImage: logo,
+    sideImage: ieee,
+  },
+   {
+    title: "IIT Bombay E-Yantra ",
+    company_name: "Tesla",
+    icon: construct,
+    iconBg: "#E6DEDD",
+    date: "Jan 2021 - Feb 2022",
+    points: [
+      "e-Yantra is an IIT Bombay initiative that promotes project-based learning in robotics and embedded systems to solve real-world problems.",
+      " The Construct-O-Bot theme aimed at developing robotic solutions for post-disaster reconstruction. Participants were required to design and program autonomous robots to identify and rebuild structures in simulated disaster-affected environments.",
+      " The challenge focused on key robotics skills including line-following, path planning, object manipulation, and autonomous navigation.",
+      "Competition Stages: eYRC is conducted in multiple stages—Stage 1 involves simulation-based tasks using tools like V-REP to model robot behavior virtually, while in Stage 2, selected teams receive hardware kits to implement their solutions in real-world scenarios.",
+    ],
+    sideImage: iit,
   },
   // ... similarly for other experiences
 ];

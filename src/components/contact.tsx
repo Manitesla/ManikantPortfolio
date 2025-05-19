@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useState, useRef, type FormEvent, type ChangeEvent } from "react";
 import { toast } from "sonner";
 import { Facebook, Instagram, MessageCircle } from "lucide-react";
-import profileImage from "../assets/logo.jpeg"; // adjust path based on your file structure
+import profileImage from "../assets/robot.png"; // adjust path based on your file structure
 
 
 type IconKey = 'facebook' | 'whatsapp' | 'instagram';
