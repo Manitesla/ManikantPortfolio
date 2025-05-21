@@ -12,14 +12,14 @@ type ComputersProps = {
 
 const Computers = ({ isMobile }: ComputersProps) => {
   // Import scene
-  const computer = useGLTF("./desktop_pc/arduino3/scene.gltf");
+  const computer = useGLTF("./desktop_pc/arduino1/scene.gltf");
 
   return (
     // Mesh
     <mesh>
       {/* Light */}
       <hemisphereLight intensity={0.6} groundColor="white" />
-      <pointLight intensity={1.9} />
+      <pointLight intensity={2.5} />
       <spotLight
         position={[-20, 50, 50]}
         angle={0.3}
@@ -31,7 +31,7 @@ const Computers = ({ isMobile }: ComputersProps) => {
 
 <primitive
   object={computer.scene}
-  scale={0.17}
+  scale={0.05}
  position={isMobile ? [0, -2, -0.3] : [0, -1, -0.3]}
   rotation={[-0.09, -0.9, -0.55]}
 />

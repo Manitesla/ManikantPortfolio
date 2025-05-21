@@ -32,7 +32,7 @@ export const Hero = () => {
       <div className="absolute bottom-0 left-0 right-0 w-full px-10 pb-10 flex flex-col md:flex-row justify-center items-center gap-20">
   {/* arudino */}
   <div className="flex justify-center mb-5 md:mb-0 md:justify-start w-full max-w-[400px] h-[400px] md:mr-10">
-
+<Arduino />
     {/* arudino <Arduino />*/}
   </div>
 
