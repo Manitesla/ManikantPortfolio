@@ -4,9 +4,20 @@
   align-items: center;
   justify-content: center;
   background: transparent; 
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
-  width: 240px;
+  width: 230px;
+  /* Center vertically and horizontally */
+  position: relative; /* or absolute if needed */
+  top: 0;
+  transition: top 0.3s ease;
+}
+
+/* Mobile view: move loader down by adding top margin */
+@media (max-width: 500px) {
+  .gif-loader-container {
+    top: 100px; /* moves loader down by 100px on mobile */
+  }
 }
 
 .gif-container {
@@ -14,7 +25,7 @@
 }
 
 .loader-gif {
-  width: 100%;
+  width: 90%;
   height: auto;
   border-radius: 5px;
 }
@@ -30,7 +41,7 @@
 
 .progress-bar-fill {
   height: 100%;
-  background-color: #00b4ff;
+  background-color: #5707e2;
   transition: width 0.3s ease-out;
 }
 
