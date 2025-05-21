@@ -1,0 +1,11 @@
+Model Information:
+* title:	Arduino UNO WiFi Card Model ESP8266MOD
+* source:	https://sketchfab.com/3d-models/arduino-uno-wifi-card-model-esp8266mod-f953d84010d346fc8b1719d79d4c4a58
+* author:	davidg.dev (https://sketchfab.com/davidg.dev)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Arduino UNO WiFi Card Model ESP8266MOD" (https://sketchfab.com/3d-models/arduino-uno-wifi-card-model-esp8266mod-f953d84010d346fc8b1719d79d4c4a58) by davidg.dev (https://sketchfab.com/davidg.dev) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
