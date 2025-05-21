@@ -34,11 +34,10 @@ export const Experience = () => {
   return (
     <SectionWrapper idName="work">
       <>
-        <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What I have done so far</p>
-          <h2 className={styles.sectionHeadText}>Achievements.</h2>
-        </motion.div>
-
+       <div>
+  <p className={styles.sectionSubText}>What I have done so far</p>
+  <h2 className={styles.sectionHeadText}>Achievements.</h2>
+</div>
         <div className="my-20 flex flex-col gap-0">
           <VerticalTimeline>
             {EXPERIENCES.map((experience, i) => (
@@ -50,7 +49,6 @@ export const Experience = () => {
     </SectionWrapper>
   );
 };
-
 
 // Experience Card
 const ExperienceCard = ({ experience }: ExperienceCardProps) => (

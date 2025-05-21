@@ -37,16 +37,17 @@ export const Hero = () => {
   </div>
 
   {/* Image */}
-  <div className="flex justify-center md:justify-end ">
-    <motion.img
-      src={logo}
-      alt="Logo"
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
-      className="w-[60vw] sm:w-[240px] md:w-[340px] max-w-full rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105"
-    />
-  </div>
+ <div className="flex justify-center md:justify-end mt-12">
+  <motion.img
+    src={logo}
+    alt="Logo"
+    initial={{ opacity: 0, y: 30 }}  // start further down
+    animate={{ opacity: 1, y: 10 }}  // end lower than before
+    transition={{ duration: 0.6, ease: "easeOut" }}
+    className="w-[60vw] sm:w-[240px] md:w-[340px] max-w-full rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105"
+  />
+</div>
+
 </div>
 
     </section>

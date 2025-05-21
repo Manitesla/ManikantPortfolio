@@ -187,108 +187,108 @@ export const TESTIMONIALS = [
 export const PROJECTS = [
   
   {
-    name: "Disney+ Clone",
+    name: "Virobot Nurse Assistant",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "Smart nurse assistant for health monitoring, medicine delivery, UV sterilization, and remote communication with real-time data access.",
     tags: [
       {
-        name: "react",
+        name: "arduino",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "nodemcu",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "robotarm",
         color: "pink-text-gradient",
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
+    source_code_link: "https://github.com/Manitesla/virobot-code",
+    live_site_link: "https://www.mecs-press.org/ijwmt/ijwmt-v10-n6/IJWMT-V10-N6-3.pdf",
   },
   {
-    name: "Golds Gym",
+    name: "Internet Rescue Robots",
     description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+      "Hybrid rescue robot with drone and ground vehicle for search, mapping, victim detection, debris removal, and real-time remote monitoring.",
     tags: [
       {
-        name: "react",
+        name: "nodemcu",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "servo",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "robo tank",
         color: "pink-text-gradient",
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
+    source_code_link: "https://github.com/Manitesla",
+    live_site_link: "https://www.mecs-press.org/ijwmt/ijwmt-v11-n2/IJWMT-V11-N2-2.pdf",
   },
   {
-    name: "Shoppy",
+    name: "Mini Virobot",
     description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
+      "This prototype delivers medicines,monitor health,sterilizes hospital can be controlled via smartphone or autonomous navigation with real-time internet data streaming.",
     tags: [
       {
-        name: "react",
+        name: "prototype",
         color: "blue-text-gradient",
       },
       {
-        name: "syncfusion",
+        name: "nodemcu",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "robotarm",
         color: "pink-text-gradient",
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
+    source_code_link: "https://github.com/Manitesla",
+    live_site_link: "https://drive.google.com/file/d/1FZyrwDr2L-borgLNO3gJf05-pzp-fgCC/view?usp=drivesdk",
   },
   {
-    name: "TikTok Clone",
+    name: "Construct bot",
     description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
+      "Construct-O-Bot, eYRC 2019–20 theme by IIT Bombay, aimed to help stuents build and develop robots for post-disaster reconstruction.",
     tags: [
       {
-        name: "nextjs",
+        name: "IIT",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "line follow",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "encoder",
         color: "pink-text-gradient",
       },
     ],
     image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
+    source_code_link: "https://github.com/Manitesla",
+    live_site_link: "https://youtube.com/shorts/mp7tAY9FGQA?si=IQ6YSLUpfLhM0PLN",
   },
   {
-    name: "Cryptoverse",
+    name: "Spider bot",
     description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+      "A Spider Bot is a multi-legged robot designed for stability and the ability to move in multiple directions, making it perfect for mini hobby projects like walking and waving hi.",
     tags: [
       {
-        name: "react",
+        name: "Servo",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "Nano",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "hobby",
         color: "pink-text-gradient",
       },
     ],
@@ -296,7 +296,7 @@ export const PROJECTS = [
     source_code_link: "https://github.com/sanidhyy/crypto-app",
     live_site_link: "https://reactjscryptoapp.netlify.app/",
   },
-  {
+ /*{ {
     name: "Travel Advisor",
     description:
       "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
@@ -318,7 +318,7 @@ export const PROJECTS = [
     source_code_link: "https://github.com/sanidhyy/travel-advisor",
     live_site_link: "https://travel-advisor-reactjs.netlify.app/",
   },
-  /*{
+  
     name: "T",
     description:
       "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
@@ -390,21 +390,21 @@ export const SOCIALS = [
   {
     name: "YouTube",
     icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
+    link: "https://www.youtube.com/@manikantsavadatti",
   },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://www.linkedin.com/in/manikant-savadatti-23215a1a1/",
   },
   {
     name: "Twitter",
     icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
+    link: "https://github.com/Manitesla",
   },
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/Manitesla",
   },
 ] as const;

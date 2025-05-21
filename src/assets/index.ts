@@ -30,11 +30,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import project1 from "./projects/project1.png";
-import project2 from "./projects/project2.png";
-import project3 from "./projects/project3.png";
-import project4 from "./projects/project4.png";
-import project5 from "./projects/project5.png";
+import project1 from "./projects/project1.jpg";
+import project2 from "./projects/project2.jpg";
+import project3 from "./projects/project3.jpg";
+import project4 from "./projects/project4.jpg";
+import project5 from "./projects/project5.jpg";
 import project6 from "./projects/project6.png";
 
 import user1 from "./testimonials/user1.jpg";
