@@ -7,39 +7,25 @@
     "email": "manikantsavadatti8@gmail.com",
     "url": "https://github.com/manitesla"
   },
-  "description": "Modern 3D Portfolio using React, Three.js and Typescript",
+  "description": "Manikant Amaresh Savadatti portfolio",
   "keywords": [
-    "reactjs",
+    "robot",
     "react",
     "porfolio-app",
-    "three-js",
+    "drdo",
     "modern-ui/ux",
-    "js",
-    "javascript",
-    "html",
-    "css",
-    "tailwindcss"
+    "arduino",
+    "embedded-c",
+    "engineer",
+    "youtube",
+    "website"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/sanidhyy/3d-portfolio.git"
   },
-  "homepagess": "https://github.com/sanidhyy/3d-portfolio#readme",
-  "bugs": {
-    "url": "https://github.com/sanidhyy/3d-portfolio/issues",
-    "email": "manikantsavadatti8@gmail.com"
-  },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
-    }
-  ],
+
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

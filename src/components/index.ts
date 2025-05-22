@@ -3,9 +3,9 @@
 
 import { About } from "./about";
 import {
-  BallCanvas,
+  
   Arduino,
-  EarthCanvas,
+
   StarsCanvas,
 } from "./canvas";
 import { Contact } from "./contact";
@@ -16,10 +16,8 @@ import { Works } from "./works";
 
 export {
   About,
-  BallCanvas,
   Arduino,
   Contact,
-  EarthCanvas,
   Experience,
   Hero,
   Navbar,
